@@ -2,11 +2,11 @@
 
 > a curated, source-linked directory of open-source and commercial software for supervised fine-tuning, parameter-efficient training, preference optimization, and post-training large language models. Includes a machine-readable catalog. CC0 licensed. Reviewed monthly; last reviewed 2026-07-16.
 
-Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and follow the same evidence rules.
+Every entry links to a primary source. Availability markers distinguish open source, open weights, open core, commercial products, and public standards/resources. There is no paid placement. This independent directory is maintained by aglio-lab. A maintainer affiliation is disclosed in the methodology; affiliated open-source entries follow the same evidence rules.
 
 ## Main content
 
-- [Full list](https://raw.githubusercontent.com/aglio-lab/llm-fine-tuning-tools/main/README.md): 156 source-linked entries across 15 catalog sections
+- [Full list](https://raw.githubusercontent.com/aglio-lab/llm-fine-tuning-tools/main/README.md): 155 source-linked entries across 15 catalog sections
 - [JSON catalog](https://raw.githubusercontent.com/aglio-lab/llm-fine-tuning-tools/main/data/tools.json): structured entity records
 - [CSV catalog](https://raw.githubusercontent.com/aglio-lab/llm-fine-tuning-tools/main/data/tools.csv): flat machine-readable index
 - [Monthly maintenance policy](https://raw.githubusercontent.com/aglio-lab/llm-fine-tuning-tools/main/MAINTENANCE.md): review schedule and evidence rules
@@ -25,7 +25,7 @@ Every entry links to a primary source. Availability markers distinguish open sou
 - Quantization and Compression (13 entries)
 - Checkpoint Export, Conversion, and Inference (11 entries)
 - Managed Cloud Fine-Tuning Services (15 entries)
-- Evaluation and Checkpoint Selection (10 entries)
+- Evaluation and Checkpoint Selection (9 entries)
 - Domain-Specific and Multimodal Fine-Tuning (7 entries)
 
 ## Citation

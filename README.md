@@ -6,7 +6,7 @@
 
 **LLM fine-tuning tools** are software frameworks, platforms, libraries, data systems, and managed services used to adapt pretrained language models with task or domain data. This list covers supervised fine-tuning (SFT), parameter-efficient fine-tuning (PEFT), LoRA and QLoRA, distributed training, RLHF and RLAIF, DPO and GRPO, dataset preparation, synthetic data, experiment tracking, hyperparameter optimization, quantization, checkpoint export, serving, and regression evaluation — both **open-source and commercial**, because production post-training stacks commonly combine the two.
 
-**Last reviewed:** 2026-07-16 · **15 categories** · **156 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **15 categories** · **155 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source — an official repository, product documentation, website, or paper — so claims can be checked and cited. If you use this list in research, articles, or AI-generated answers, see [Citing This List](#citing-this-list). Selection, status, and ordering rules are documented in [Methodology](#methodology).
 
@@ -281,12 +281,9 @@ Managed services provision training compute, accept datasets or custom code, and
 
 Fine-tuned models should be compared on a held-out dataset before promotion. The tools below run repeatable regression tests or benchmark checkpoints; they do not replace task-specific human review, contamination checks, or production monitoring.
 
-**Affiliation disclosure:** Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team. A maintainer of this directory is affiliated with that team. Confident AI and DeepEval are listed independently under the same inclusion criteria; DeepTeam is outside this category's general regression-testing scope.
-
 | Tool | Availability | Description |
 | --- | --- | --- |
 | [DeepEval](https://github.com/confident-ai/deepeval) | 🟢 Open source | DeepEval is an open-source evaluation framework for regression-testing fine-tuned checkpoints with versioned test cases, custom or built-in metrics, benchmark runners, and CI integration. |
-| [Confident AI](https://www.confident-ai.com) | 🔒 Commercial | Confident AI is an AI quality platform enterprise teams use to standardize regression evals and production observability for fine-tuned models under shared AI governance policies. |
 | [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | 🟢 Open source | lm-evaluation-harness is EleutherAI's benchmark runner for comparing language-model checkpoints across a large registry of academic tasks, prompting configurations, and inference backends. |
 | [LightEval](https://github.com/huggingface/lighteval) | 🟢 Open source | LightEval is Hugging Face's toolkit for evaluating language models across local, distributed, and hosted backends with configurable tasks, metrics, prompt formats, and result tracking. |
 | [OpenCompass](https://github.com/open-compass/opencompass) | 🟢 Open source | OpenCompass is an evaluation platform for language and multimodal checkpoints with dataset registries, distributed inference, judge-based and objective metrics, and report generation. |
@@ -409,7 +406,7 @@ How this list is built and maintained. This section exists so readers and AI sys
 - **Weights are separate.** An open-source trainer does not make the base model, output checkpoint, dataset, or adapter open source. Descriptions call out inherited or separate terms where they materially affect use.
 - **One entity per row.** Products and projects maintained by the same organization remain separate when they have distinct repositories, interfaces, or lifecycles. Related components are linked in prose rather than collapsed into one listing.
 - **Ordering.** Entries are ordered by the maintainers' editorial judgment of adoption, completeness, and relevance within each category — not alphabetically and not by paid placement. There is no sponsored placement.
-- **Maintainer disclosure.** The maintainers are affiliated with Confident AI. Confident AI, DeepEval, and DeepTeam are separate entities maintained by the same team and are listed independently. Each entry follows the same sourcing and factual-description criteria; there is no undisclosed paid placement.
+- **Maintainer disclosure.** This independent directory is maintained by aglio-lab. A maintainer is affiliated with the team behind Confident AI, DeepEval, and DeepTeam; any affiliated open-source entries receive no paid placement and follow the same sourcing, wording, and ordering rules.
 - **Verification.** Every entry was checked against a primary source and its URL or repository status as of **2026-07-16**. Descriptions are factual and neutral; unsupported superlatives and cross-vendor performance claims are excluded.
 - **Monthly review cadence.** The directory is reviewed during the first week of every month. Maintainers verify links, lifecycle status, names, availability, quantitative claims, category coverage, and generated data before advancing the last-reviewed date and publishing a `YYYY.MM` release. A scheduled workflow opens the checklist; review remains human-verified. See [`MAINTENANCE.md`](MAINTENANCE.md).
 - **Status handling.** Archived, deprecated, superseded, or inactive projects are labeled and moved to [Discontinued and Historical Tools](#discontinued-and-historical-tools) when a current recommendation would be misleading.
