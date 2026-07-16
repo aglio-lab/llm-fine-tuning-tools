@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or reference this list, please cite it as below. For reproducible citations, cite a monthly release or commit permalink."
+title: "The Comprehensive List of LLM Fine-Tuning Tools"
+abstract: "a curated, source-linked directory of open-source and commercial software for supervised fine-tuning, parameter-efficient training, preference optimization, and post-training large language models. Includes a machine-readable catalog."
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-16"
+repository-code: "https://github.com/aglio-lab/llm-fine-tuning-tools"
+url: "https://github.com/aglio-lab/llm-fine-tuning-tools"
+license: CC0-1.0
+keywords:
+  - llm-fine-tuning
+  - fine-tuning
+  - peft
+  - lora
+  - rlhf
+  - post-training
+  - llm-training
+  - generative-ai
+authors:
+  - name: "aglio-lab"
+    website: "https://github.com/aglio-lab"
