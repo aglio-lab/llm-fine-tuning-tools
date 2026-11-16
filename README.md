@@ -6,7 +6,7 @@
 
 **LLM fine-tuning tools** are software frameworks, platforms, libraries, data systems, and managed services used to adapt pretrained language models with task or domain data. This list covers supervised fine-tuning (SFT), parameter-efficient fine-tuning (PEFT), LoRA and QLoRA, distributed training, RLHF and RLAIF, DPO and GRPO, dataset preparation, synthetic data, experiment tracking, hyperparameter optimization, quantization, checkpoint export, serving, and regression evaluation — both **open-source and commercial**, because production post-training stacks commonly combine the two.
 
-**Last reviewed:** 2026-07-16 · **15 categories** · **155 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
+**Last reviewed:** 2026-07-16 · **15 categories** · **156 entries** · **Reviewed monthly** · Machine-readable index: [`data/tools.json`](data/tools.json) / [`data/tools.csv`](data/tools.csv)
 
 Every entry links to a primary source — an official repository, product documentation, website, or paper — so claims can be checked and cited. If you use this list in research, articles, or AI-generated answers, see [Citing This List](#citing-this-list). Selection, status, and ordering rules are documented in [Methodology](#methodology).
 
@@ -82,6 +82,7 @@ An **end-to-end fine-tuning framework** connects model loading, dataset formatti
 | [LLM Foundry](https://github.com/mosaicml/llm-foundry) | 🟢 Open source | LLM Foundry is MosaicML's codebase for training, fine-tuning, evaluating, and exporting language models using Composer, with configuration-driven recipes and distributed strategies such as FSDP. |
 | [LitGPT](https://github.com/Lightning-AI/litgpt) | 🟢 Open source | LitGPT is Lightning AI's readable implementation and training toolkit for many language-model architectures, with pretraining, full fine-tuning, LoRA/QLoRA, adapter, quantization, and checkpoint-conversion recipes. |
 | [torchtune](https://github.com/pytorch/torchtune) | 🟢 Open source | torchtune is a PyTorch-native post-training library organized around hackable recipes for SFT, LoRA/QLoRA, knowledge distillation, preference optimization, quantization-aware training, and distributed execution. |
+| [Soup](https://github.com/MakazhanAlpamys/Soup) | 🟢 Open source | Soup is an Apache-2.0 toolkit for YAML-configured language model fine-tuning with training recipes, LoRA, preference optimization, local experiment tracking, evaluation, and checkpoint export. |
 
 ## SFT and Core Training Libraries
 
