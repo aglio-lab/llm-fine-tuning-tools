@@ -3,10 +3,10 @@
   "source": "https://github.com/aglio-lab/llm-fine-tuning-tools",
   "license": "CC0-1.0",
   "last_verified": "2026-07-16",
-  "entry_count": 155,
+  "entry_count": 156,
   "category_count": 15,
   "categories": {
-    "End-to-End Fine-Tuning Frameworks and Platforms": 12,
+    "End-to-End Fine-Tuning Frameworks and Platforms": 13,
     "SFT and Core Training Libraries": 9,
     "PEFT, LoRA, and Adapter Tooling": 9,
     "Distributed Training and Training Optimization": 11,
@@ -153,6 +153,17 @@
       "status": "active",
       "primary_url": "https://github.com/pytorch/torchtune",
       "description": "torchtune is a PyTorch-native post-training library organized around hackable recipes for SFT, LoRA/QLoRA, knowledge distillation, preference optimization, quantization-aware training, and distributed execution.",
+      "secondary_links": []
+    },
+    {
+      "id": "end-to-end-fine-tuning-frameworks-and-platforms--soup",
+      "name": "Soup",
+      "artifact_type": "platform",
+      "category": "End-to-End Fine-Tuning Frameworks and Platforms",
+      "availability": "open-source",
+      "status": "active",
+      "primary_url": "https://github.com/MakazhanAlpamys/Soup",
+      "description": "Soup is an Apache-2.0 toolkit for YAML-configured language model fine-tuning with training recipes, LoRA, preference optimization, local experiment tracking, evaluation, and checkpoint export.",
       "secondary_links": []
     },
     {
